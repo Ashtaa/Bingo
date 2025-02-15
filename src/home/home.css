@@ -1,0 +1,33 @@
+/* Container styling */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    background-color: #f4f4f4; /* Light gray background */
+    flex-direction: column;
+  }
+  
+  /* Navigation links */
+  .home-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Link button styling */
+  .home-link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff; /* Blue color */
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .home-link:hover {
+    background-color: #0056b3;
+  }
+  

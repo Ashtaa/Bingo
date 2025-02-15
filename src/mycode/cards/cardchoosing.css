@@ -1,0 +1,34 @@
+/* Container for the buttons */
+.card-selection-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  /* Style for the buttons */
+  .card-button {
+    background-color: #007bff; /* Default blue background */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100px;
+  }
+  
+  /* Hover effect */
+  .card-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Active button style when selected */
+  .card-button.selected {
+    background-color: #28a745; /* Green when selected */
+    transform: scale(1.1);
+  }
+  

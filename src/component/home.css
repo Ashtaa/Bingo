@@ -1,0 +1,11 @@
+.home-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.start-button, .leaderboard-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}

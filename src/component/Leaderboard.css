@@ -1,0 +1,12 @@
+.leaderboard-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.home-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
